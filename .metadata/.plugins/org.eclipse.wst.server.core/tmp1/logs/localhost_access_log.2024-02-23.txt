@@ -1,0 +1,14 @@
+127.0.0.1 - - [23/Feb/2024:00:19:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:19:32 +0530] "GET /Cookies/ HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:19:32 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:19:44 +0530] "GET /Cookies/first.html HTTP/1.1" 200 416
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:19:57 +0530] "POST /Cookies/FirstcookieServlet HTTP/1.1" 200 414
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:20:02 +0530] "POST /Cookies/SecondcookieServlet HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:20:07 +0530] "POST /Cookies/ThirdcookieServlet HTTP/1.1" 500 1475
+127.0.0.1 - - [23/Feb/2024:00:21:44 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:21:44 +0530] "GET /Cookies/ HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:21:44 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:22:00 +0530] "POST /Cookies/FirstcookieServlet HTTP/1.1" 200 414
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:22:04 +0530] "POST /Cookies/SecondcookieServlet HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [23/Feb/2024:00:22:09 +0530] "POST /Cookies/ThirdcookieServlet HTTP/1.1" 200 273
+127.0.0.1 - - [23/Feb/2024:15:09:15 +0530] "GET / HTTP/1.1" 404 751

@@ -1,0 +1,9 @@
+127.0.0.1 - - [07/Feb/2024:15:30:37 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:15:30:37 +0530] "GET /Fullnameform/ HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:15:30:38 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:15:30:57 +0530] "GET /Fullnameform/Fullname.html HTTP/1.1" 200 602
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:15:31:22 +0530] "GET /Fullnameform/FullNameServlet?First+Name=gnana&Middle+Name=hima&Last+Name=bindu HTTP/1.1" 200 52
+127.0.0.1 - - [07/Feb/2024:15:39:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:15:39:30 +0530] "GET /Fullnameform/ HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:15:39:43 +0530] "GET /Fullnameform/Fullname.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:15:40:18 +0530] "GET /Fullnameform/FullNameServlet?First+Name=ghb&Middle+Name=hima&Last+Name=hju HTTP/1.1" 200 56

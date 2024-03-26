@@ -1,0 +1,5 @@
+package com.sathya.Lombok;
+
+public class Employee {
+
+}

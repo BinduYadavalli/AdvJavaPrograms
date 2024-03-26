@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Application</title>
+</head>
+<body bgcolor="pink">
+	<h1>REGISTRATION FORM</h1>
+	<form method="get" action="./RegisterServlet">
+	
+	<label>User Name:</lable>
+	<input type="text" name="name" required/>
+	<br><br>
+	
+	<label>User Password:</lable>
+	<input type="password" name="password" required/>
+	<br><br>
+	
+	<label>Gender:</lable>
+	<input type="radio" name="gender" required/>MALE
+	<input type="radio" name="gender" required/>FEMALE
+	<br><br>
+	
+	<label>Date Of Birth :</lable>
+	<input type="date" name="dob" required/>
+	<br><br>
+	
+	<label>Phone Number:</lable>
+	<input type="number" name="phnno"  required/>
+	<br><br>
+	
+	<lable>Email ID:</lable>
+	<input type="email" name="email" required/>
+	<br><br>
+	
+	<label>Qualification:</label>
+	<input type="checkbox" name="qualification" />BSC
+	<input type="checkbox" name="qualification"/>MCA
+	<input type="checkbox" name="qualification"/>B TECH
+	<input type="checkbox" name="qualification"/>MBA
+	<br><br>
+	
+	<label>Country:</label>
+	<select name="country">
+	       <option>India</option>
+	       <option>America</option>
+	       <option>Asia</option>
+	       <option>Africa</option>
+	</select>
+	<br><br>
+	
+	<label>Languages:</label>
+	<select name="language" multiple>
+	      <option>Telugu</option>
+	      <option>English</option>
+	      <option>Hindi</option>
+	      <option>Tamil</option>
+	      <option>kannada</option>
+	</select>
+	<br><br>
+	
+	<label>Comments about Web Application:</label>
+	<textarea name="comment" row="5" col="25">
+	
+	</textarea>
+	<br><br>
+	<input type="submit" value="Register"/>
+	</form>
+</body>
+</html>
